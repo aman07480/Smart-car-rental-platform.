@@ -1,0 +1,59 @@
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.log
+
+# Virtual Environment
+env/
+venv/
+envoirment/
+ENV/
+.env
+.env.*
+
+# Django specific
+*.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# =========================
+# Node / Frontend (JS)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+.history/
+
+# =========================
+# OS files (Windows)
+# =========================
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Git
+# =========================
+.git/
+.gitignore~
+
+# =========================
+# Misc
+# =========================
+.DS_Store
+.idea/
+
+
