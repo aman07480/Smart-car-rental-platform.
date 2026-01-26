@@ -148,6 +148,7 @@ class BookingSerializer(serializers.ModelSerializer):
             "total_price",
             "status",
             "created_at",
+            
         ]
         read_only_fields= ["total_price", "status", "created_at"]
 
