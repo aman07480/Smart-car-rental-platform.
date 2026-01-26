@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class RenatalAppConfig(AppConfig):
-    name = 'Renatal_app'
+    name = 'Rental_app'
