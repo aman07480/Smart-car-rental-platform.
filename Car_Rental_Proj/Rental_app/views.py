@@ -378,3 +378,5 @@ class AdminStatsView(APIView):
                 "active_customers": UserProfile.objects.filter(role=UserProfile.ROLE_CUSTOMER).count(),
             }
         )
+    
+    
